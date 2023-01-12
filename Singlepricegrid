@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Single Price Grid</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid-item">
+            <h3>Basic</h3>
+            <p>$9.99/month</p>
+            <ul>
+                <li>10GB storage</li>
+                <li>Unlimited bandwidth</li>
+                <li>1 user</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+        <div class="grid-item">
+            <h3>Pro</h3>
+            <p>$19.99/month</p>
+            <ul>
+                <li>50GB storage</li>
+                <li>Unlimited bandwidth</li>
+                <li>5 users</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+        <div class="grid-item">
+            <h3>Enterprise</h3>
+            <p>$49.99/month</p>
+            <ul>
+                <li>100GB storage</li>
+                <li>Unlimited bandwidth</li>
+                <li>10 users</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
