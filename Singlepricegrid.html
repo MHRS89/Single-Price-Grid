@@ -1,71 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Single Price Grid</title>
-    <style>
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 20px;
-        }
-Copy code
-    .grid-item {
-        background-color: #f2f2f2;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .grid-item h3 {
-        margin-bottom: 10px;
-    }
-
-    .grid-item p {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
-    .grid-item button {
-        background-color: #4CAF50;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        cursor: pointer;
-        margin-top: 10px;
-    }
-</style>
-</head>
-<body>
-    <div class="grid">
-        <div class="grid-item">
-            <h3>Basic</h3>
-            <p>$9.99/month</p>
-            <ul>
-                <li>10GB storage</li>
-                <li>Unlimited bandwidth</li>
-                <li>1 user</li>
-            </ul>
-            <button>Sign Up</button>
+    <head>
+        <title>Single Price Grid</title>
+    </head>
+    <body>
+        <div>
+            <h1>Join our community</h1>
+            <h2>30-day, hassle-free money back gurantee</h2>
+            <p>Gain access to our full library of tutorials along with code reviews.</p>
+            <p>Perfect for any developers who are serious about honing their skills.</p>
         </div>
-        <div class="grid-item">
-            <h3>Pro</h3>
-            <p>$19.99/month</p>
-            <ul>
-                <li>50GB storage</li>
-                <li>Unlimited bandwidth</li>
-                <li>5 users</li>
-            </ul>
-            <button>Sign Up</button>
+        <br>
+        <br>
+        <div style="display: flex;">
+            <div style="flex: 1;">
+                <h1> Monthly Subscription</h1>
+                <br>
+                <h1>$29 per month</h1>
+                <p>Full access for less than $1 a day</p>
+                <br>
+                <button>Sign Up</button>
+            </div>
+            <div style="flex: 1;">
+                <h1>Why Us</h1>
+                <br>
+                <ul>Tutorials by industry experts</ul>
+                <ul>Peer and expert code review</ul>
+                <ul>Coding Exercises</ul>
+                <ul>Access to our GitHub repos</ul>
+                <ul>Community Forum</ul>
+                <ul>Flashcard decks</ul>
+                <ul>New Videos everyweek</ul>
+            </div>
         </div>
-        <div class="grid-item">
-            <h3>Enterprise</h3>
-            <p>$49.99/month</p>
-            <ul>
-                <li>100GB storage</li>
-                <li>Unlimited bandwidth</li>
-                <li>10 users</li>
-            </ul>
-            <button>Sign Up</button>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
